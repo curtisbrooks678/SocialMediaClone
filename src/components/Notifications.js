@@ -1,8 +1,12 @@
 import React from "react";
 
 function Notifications(){
+  const notificationsStyles = {
+    display: "flex",
+    padding: ".25em"
+  }
   return(
-    <h3>Notifications</h3>
+    <h3 style={notificationsStyles}>Notifications</h3>
   );
 }
 

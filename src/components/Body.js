@@ -7,10 +7,18 @@ import FriendsList from "./FriendsList";
 function Body(){
   return (
     <React.Fragment>
-      <Profile />
-      <Bio />
-      <NewsFeed />
-      <FriendsList />
+      <div class="row">
+        <div class="col-4">
+          <Profile />
+          <Bio />
+        </div>
+        <div class="col-4">
+          <NewsFeed />
+        </div>
+        <div class="col-4">
+          <FriendsList />
+        </div>
+      </div>
     </React.Fragment>
   );
 }

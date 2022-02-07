@@ -1,8 +1,12 @@
 import React from "react";
 
 function SearchBar(){
+  const searchBarStyles = {
+    display: "flex",
+    padding: ".25em"
+  }
   return(
-    <h3>SearchBar</h3>
+    <h3 style={searchBarStyles}>SearchBar</h3>
   );
 }
 

@@ -1,8 +1,13 @@
 import React from "react";
 
 function Home(){
+  const homeStyles = {
+    display: "flex",
+    padding: ".25em"
+  }
   return(
-    <h3>Home</h3>
+    
+    <h3 style={homeStyles}>Home</h3>
   );
 }
 
